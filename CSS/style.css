@@ -29,7 +29,7 @@ aside {
     width: 10%;
     float: right;
     font-style: italic;
-    background-color: lightgray;
+    background-color: rgba(42, 9, 255, 0.229);
     
 }
 
@@ -37,7 +37,9 @@ aside ul {
     list-style: circle;    
 }
 
-a {
-    text-decoration: none;
+a{
+    color: #000
 }
 
+a:link { text-decoration:none; } 
+a:visited { text-decoration:none; }
