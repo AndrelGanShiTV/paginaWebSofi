@@ -1,0 +1,16 @@
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.element {
+    margin: 0.1em;
+    border-style: groove;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 100%;
+}

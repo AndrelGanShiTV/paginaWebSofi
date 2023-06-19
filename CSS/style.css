@@ -1,0 +1,43 @@
+body {
+    background-color: #fff;
+}
+
+article,
+h1,
+h2,
+aside,
+footer {
+    background-color: #eee;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: justify;
+}
+
+h1, h2 {
+    width: 100%;
+    background-color: rgba(42, 9, 255, 0.229);
+    text-align: center;
+}
+
+article {
+    width: 80%;
+    float: left;
+    display: inline;
+}
+
+aside {
+    width: 10%;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+    
+}
+
+aside ul {
+    list-style: circle;    
+}
+
+a {
+    text-decoration: none;
+}
+
